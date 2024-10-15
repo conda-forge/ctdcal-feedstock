@@ -1,5 +1,5 @@
 {% set name = "ctdcal" %}
-{% set version = "0.1.2b0" %}
+{% set version = "0.1.5b1.dev0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ctdcal-{{ version }}.tar.gz
-  sha256: 5a4effc094f968223b40bbf80ab56d30d1a1fe494ed8b75c7877c79611e0345b
+  sha256: 86d6fc9fc15bbc69efc4cb81f9887562dca660c2bb60b12b9f4a211571d98fb0
 
 build:
   number: 0
